@@ -1,26 +1,8 @@
 # Rally Car
 
-Authors: John Culley, Kai Imery, Ananth Sanjay, Jeffrey Zhang
+Authors: John Culley
 
 Date: 2023-04-29
-
-### Summary
-
-To create our Rally Car there were a few crucial components: the buggy control with an ESP32, the QR scanner with a Raspberry Pi, the live stream with a Raspberry Pi, a node.js server responsible for managing the database, a node.js server responsible for communicating with the ESP32, and a front end which has the display. Jeffrey was in charge of the buggy control with the ESP32. John was in charge of the QR scanner, the live stream, and the database. Kai and Ananth were responsible for the front end and the communication with the ESP32. Because of the clear division of tasks, each component was able to be completely tested individually to ensure that they worked properly. One key issue was figuring out how to get the live stream onto an HTML front end page. Another issue was figuring out how to communicate with a constant stream of data between the python file for QR scanning and the node.js server for processing the QR scan and storing it in the database. When these issues were solved, we combined all of the components of the vehicle and began testing. There were very little issues when combining all of the components and the Rally Car was completing all necessary functionalities. 
-
-
-### Self-Assessment 
-
-| Objective Criterion | Rating | Max Value  | 
-|---------------------------------------------|:-----------:|:---------:|
-| Objective One | 1 |  1     | 
-| Objective Two | 1 |  1     | 
-| Objective Three | 1 |  1     | 
-| Objective Four | 1 |  1     | 
-| Objective Five | 1 |  1     | 
-| Objective Six | 1 |  1     | 
-| Objective Seven | 1 |  1     | 
-
 
 ### Solution Design
 
@@ -55,7 +37,6 @@ Our Buggy implements numerous features. First, it acts as a UDP server that is a
 
 
 ### Supporting Artifacts
-- [Link to video technical presentation](https://drive.google.com/file/d/1oelqTPgsCMk4U8ZUj-nTvE2k9dPWyIjL/view?usp=sharing). Not to exceed 120s
 - [Link to video demo](https://drive.google.com/file/d/1C2pgzzbGSP4ygIYKwfRgdq_ZJaGhokn0/view?usp=sharing). Not to exceed 120s
 
 
